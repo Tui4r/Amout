@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+  </head>
+  <body>
+    <nav>
+      <input id="nav-toggle" type="checkbox">
+      <a [routerLink]="['/']"><div class="logo"><strong>
+        <img src="https://firebasestorage.googleapis.com/v0/b/amout-dust.appspot.com/o/logo.jpg?alt=media&token=fd7cc339-4f64-4132-ba24-6549e2e1a246" alt="" height="75" width="75" />
+      </strong></div></a>
+      <ul class="links">
+        <li><a [routerLink]="['/']">Home</a></li>
+        <li><a [routerLink]="['/check']">Check amount dust</a></li>
+        <li><a [routerLink]="['/contact']">Contact</a></li>
+      </ul>
+      <label for="nav-toggle" class="icon-burger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </label>
+    </nav>
+  </body>
+</html>

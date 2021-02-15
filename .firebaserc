@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "amout-dust": {
+      "hosting": {
+        "Amout": [
+          "amout-dust"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "amout-dust"
+  }
+}
